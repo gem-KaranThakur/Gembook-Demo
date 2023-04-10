@@ -1,0 +1,22 @@
+{
+  "environment": "prod",
+  "project_name": "GRIDDEMO-GEMBOOK",
+  "glueCode": "com.qa.gembook",
+  "tags": "@demo123987",
+  "feature": "src/main/resources/features/",
+  "email_report": "y",
+  "email_to": "karan.thakur@geminisolutions.com",
+  "report_name": "GembookTestReport",
+  "sub_id": "test_id",
+  "jewel_user": "karanthakur",
+  "jewel_bridge_token": "5a4d0c92-bfed-4500-a09b-85e7ac98ea941676631482410",
+  "enter_point": "https://apis.gemecosystem.com/enter-point",
+  "tagName": "@demo123",
+  "prod": {
+    "browserName": "grid",
+    "launchUrl": "https://gembook.geminisolutions.com/#/",
+    "launchUrl1": "https://mymis.geminisolutions.com/",
+    "browserTimeout": 100,
+    "chromeOptions" :["--incognito"]
+  }
+}
